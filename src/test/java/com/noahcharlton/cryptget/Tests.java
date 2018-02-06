@@ -7,11 +7,15 @@ import org.junit.Test;
 public class Tests {
 
 	@Test
-	public void basicTest() {
-		Currency c = Cryptoget.getBitcoin();
-		
-		assertEquals("Bitcoin", c.getName());
-		assertEquals("bitcoin", c.getId());
+	public void currencyTest() {
+		testCurrency(Cryptoget.getBitcoin(), "Bitcoin", "bitcoin");
+		testCurrency(Cryptoget.getEthereum(), "Ethereum", "ethereum");
+		testCurrency(Cryptoget.getLitecoin(), "Litecoin", "litecoin");
+	}
+
+	private void testCurrency(Currency c, String name, String id) {
+		assertEquals(name, c.getName());
+		assertEquals(id, c.getId());
 	}
 
 }
