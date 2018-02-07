@@ -1,4 +1,4 @@
-package com.noahcharlton.cryptget.request;
+package com.noahcharlton.cryptoget.request;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

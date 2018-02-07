@@ -1,4 +1,4 @@
-package com.noahcharlton.cryptget;
+package com.noahcharlton.cryptoget;
 
 public class Currency {
 

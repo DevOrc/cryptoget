@@ -1,8 +1,11 @@
-package com.noahcharlton.cryptget;
+package com.noahcharlton.cryptoget;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.noahcharlton.cryptoget.Cryptoget;
+import com.noahcharlton.cryptoget.Currency;
 
 public class Tests {
 

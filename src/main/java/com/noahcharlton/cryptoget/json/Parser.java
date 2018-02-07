@@ -1,4 +1,4 @@
-package com.noahcharlton.cryptget.json;
+package com.noahcharlton.cryptoget.json;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -7,8 +7,8 @@ import javax.json.Json;
 import javax.json.stream.JsonParser;
 import javax.json.stream.JsonParser.Event;
 
-import com.noahcharlton.cryptget.Cryptoget;
-import com.noahcharlton.cryptget.Currency;
+import com.noahcharlton.cryptoget.Cryptoget;
+import com.noahcharlton.cryptoget.Currency;
 
 public class Parser {
 

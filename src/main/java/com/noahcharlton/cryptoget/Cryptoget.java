@@ -1,9 +1,9 @@
-package com.noahcharlton.cryptget;
+package com.noahcharlton.cryptoget;
 
 import java.util.logging.Logger;
 
-import com.noahcharlton.cryptget.json.Parser;
-import com.noahcharlton.cryptget.request.RequestHandler;
+import com.noahcharlton.cryptoget.json.Parser;
+import com.noahcharlton.cryptoget.request.RequestHandler;
 
 /**
  * 
