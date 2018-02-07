@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.noahcharlton</groupId>
 	<artifactId>cryptget</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>cryptget</name>
 	<description>An API for coin market cap</description>
 	<dependencies>
@@ -18,4 +18,8 @@
 			<version>1.0.2</version>
 		</dependency>
 	</dependencies>
+	<url>https://github.com/DevOrc/cryptoget</url>
+	<scm>
+		<url>https://github.com/DevOrc/cryptoget</url>
+	</scm>
 </project>
